@@ -4,7 +4,7 @@ env:
   EB_APPLICATION_NAME       : "Practice2"
   EB_ENVIRONMENT_NAME       : "Practice2-env"
   DEPLOY_PACKAGE_NAME       : "letscode_${{ github.sha }}.zip"
-  AWS_REGION_NAME           : "u-west-2"
+  AWS_REGION_NAME           : "eu-west-2"
 
 on: 
   push:
